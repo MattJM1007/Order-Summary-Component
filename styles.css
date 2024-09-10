@@ -1,0 +1,182 @@
+:root{
+    /* Primary Colors */
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Brght-blue: hsl(245, 75%, 52%);
+    /* Neutral Colors */
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    /* Fonts*/
+    font-size: 16px;
+    --Medium: 500;
+    --Bold: 700;
+    --Black: 900;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--Pale-blue);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    background-color: white;
+    max-width: 450px;
+    border-radius: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.summary, .plan, button{
+    margin: 0 3rem 0;
+}
+
+.heroimg{
+    border-radius: 1.3rem 1.3rem 0 0;
+    margin-bottom: 2.6rem;
+}
+
+.summary{
+    text-align: center;
+}
+.title{
+    font-size: 1.8rem;
+    color: var(--Dark-blue);
+    margin-bottom: 1rem;
+}
+
+.description{
+    color: var(--Desaturated-blue);
+    margin-bottom: 1.3rem;
+    line-height: 1.5;
+}
+
+.plan{
+    background-color: var(--Very-pale-blue);
+    border-radius: 0.7rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+.music-icon{
+    display: inline-block;
+    margin-right: 1.25rem;
+    vertical-align: middle;
+}
+
+.plan-text{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.plan-name{
+    font-size: 1rem;
+    color: var(--Dark-blue);
+    font-weight: var(--Black);
+}
+
+.plan-cost{
+    font-size: 1rem;
+    color: var(--Desaturated-blue);
+    font-weight: 400;
+}
+
+.change{
+    display: inline-block;
+    font-size: 0.8rem;
+    color: var(--Brght-blue);
+    text-decoration: underline;
+    vertical-align: middle;
+    margin-left: 5.7rem ;
+}
+
+.order-buttons{
+    max-width: 354px;
+}
+
+.payment{
+   width: 100%;
+   padding: 0.9rem;
+   border-radius: 0.7rem;
+   border: 0;
+   background-color: var(--Brght-blue);
+   color: white;
+   font-size: 0.9rem;
+   font-weight: var(--Black);
+   margin-bottom: 2rem;
+   box-shadow: 0 1.25rem 1.25rem 0 hsl(245, 75%, 52%, 19%);
+}
+
+.cancel{
+    margin-bottom: 3rem;
+    width: 100%;
+    border: 0;
+    background-color: white;
+    color: var(--Desaturated-blue);
+    font-size: 0.9rem;
+    font-weight: var(--Black);
+}
+
+.payment:hover{
+    cursor: pointer;
+    background-color: hsl(245, 83%, 68%);
+}
+
+.cancel:hover{
+    cursor: pointer;
+    color: var(--Dark-blue);
+}
+
+.change:hover{
+    cursor: pointer;
+    color: hsl(245, 83%, 68%);
+    text-decoration: none;
+}
+
+@media (max-width: 485px){
+    body{
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
+    
+    main, .heroimg {
+        max-width: 350px;
+    }
+
+    .title{
+        font-size: 1.3rem;
+    }
+
+    .description{
+        font-size: 0.8rem;
+    }
+
+    .plan{
+        padding: 1rem;
+    }
+
+    .plan-name, .plan-cost{
+        font-size: 0.7rem;
+    }
+
+    .change{
+        display: inline-block;
+        font-size: 0.7rem;
+        margin-left: 2rem;
+    }
+
+    .order-buttons{
+        max-width: 255px;
+    }
+}
