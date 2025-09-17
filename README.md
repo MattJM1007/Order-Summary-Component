@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -13,7 +13,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-
 
 ## Overview
 
@@ -29,15 +28,15 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/MattJM1007/Order-Summary-Component)
+- Live Site URL: [live site URL here](https://mattjm1007.github.io/Order-Summary-Component/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS 
+- CSS
 
 ### What I learned
 
@@ -47,9 +46,6 @@ I completed this challenge in one sitting and was able to effectively style plan
 
 I should time myself to see how long this takes me and try to be faster.
 
-
 ## Author
 
 - Frontend Mentor - [@MattJM1007](https://www.frontendmentor.io/profile/MattJM1007)
-
-
